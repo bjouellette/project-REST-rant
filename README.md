@@ -18,6 +18,10 @@ REST-Rant is an app where users can review restaurants.
 
 Planning Data
 
-| Name (string)  | City (string) | State (string) | Cuisines (String) |
-| ------- | ---- | ------- | ------- |
-| - | - | - | - |
+| Field Name  | Data Type |
+| ------- | ---- |
+| name | string |
+| city | string |
+| state | string |
+| cuisines | string |
+| pic | string (a URL) |

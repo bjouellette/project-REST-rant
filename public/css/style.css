@@ -1,11 +1,22 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
 h1 {
     text-align: center;
     color: cornflowerblue;
   }
 
-.photo {
-    height: 1200px;
-    width: 100%;
+img {
+    width: 50%;
+    height: auto;
 }
 nav {
   background-color: cornflowerblue;
@@ -30,15 +41,4 @@ nav a {
 nav a:hover {
   color: pink;
   text-decoration: none;
-}
-
-body {
-  background-color: lightblue;
-  text-align: center;
-}
-
-main {
-  margin-right: 20px;
-  margin-left: 20px;
-  background-color: white;
 }

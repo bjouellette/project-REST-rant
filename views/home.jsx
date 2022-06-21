@@ -3,22 +3,18 @@ const Def = require('./default')
 
 function home () {
     return (
-    <Def>
-        <main>
-            <h1>HOME</h1>
-            <div>
-                <img src='/images/fruit-cups.jpg' alt='Chia Fruit Drinks'></img>
+        <Def>
+            <main>
+                <h1>HOME</h1>
                 <div>
-                Photo by <a href='https://unsplash.com/@cravethebenefits'>Brenda Godinez</a> on <a href='https://unsplash.com/'>Unsplash</a>
+                    <img className="fruitCups" src="/images/fruit-cups.jpg" alt="Fruit Cups" />
                 </div>
-            </div>
-            <a href="/places">
-  <button className="btn-primary">Places Page</button>
-</a>
-
-        </main>
-    </Def>
+                <a href="/places">
+                    <button className="btn-primary">Places Page</button>
+                </a>
+            </main>
+        </Def>
     )
 }
 
-module.exports = home
+module.exports = home 
